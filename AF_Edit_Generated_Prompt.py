@@ -6,7 +6,7 @@
 #
 # LICENSE: MIT License
 #
-# v14
+# v0.0.14
 #   - Initial release
 #
 # Description:
@@ -82,4 +82,5 @@ NODE_CLASS_MAPPINGS = {
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "AF_Edit_Generated_Prompt": "AF - Edit Generated Prompt"
+
 }
