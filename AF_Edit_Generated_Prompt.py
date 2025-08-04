@@ -17,7 +17,7 @@
 # - Use it!
 #
 # Changelog:
-# v14
+# v0.0.14
 # - Inital Git Release#
 #
 # Feature Requests / Wet Dreams
@@ -84,3 +84,4 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "AF_Edit_Generated_Prompt": "AF - Edit Generated Prompt"
 
 }
+
