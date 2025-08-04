@@ -1,17 +1,25 @@
-"""
-@author: Alex Furer
-@title: AF - Edit Generated Prompt
-@nickname: alFrame
-@description: This custom node let's you pipe a generated prompt and either pass it as is, or copy and paste it to the lower text widget for editing. The lower one will be passed on, if there's text.
-@version: v14
-"""
-
-#---------------------------------------------------------------------------------------------------------------------------------------------------#
-# AF nodes are created by Alex Furer developed in 2025 with the help of QWEN3 and Claude AI                                                         #
-# for ComfyUI                                                                                                                                       #
-# Like the pack and want to support me?                                                                                                             #
-#---------------------------------------------------------------------------------------------------------------------------------------------------#
-
+# ****** ComfyUI-AF-EditGeneratedPrompt ******
+#
+# Creator: Alex Furer - Co-Creator(s): Qwen3 and Claude AI
+#
+# Praise, comment, bugs, improvements: https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt/issues
+#
+# v14
+#   - Initial release
+#
+# Description:
+# A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually. Or you can use the lower input field like any regular text input filed. The content of the lower text field will always dominate the output of the node.
+#
+# Usage:
+# Simple usage:
+# - Use it!
+#
+# Changelog:
+# v14
+# - Inital Git Release#
+#
+# Feature Requests / Wet Dreams
+# - 
 
 class AF_Edit_Generated_Prompt:
     @classmethod
