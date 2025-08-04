@@ -4,6 +4,8 @@
 #
 # Praise, comment, bugs, improvements: https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt/issues
 #
+# LICENSE: MIT License
+#
 # v14
 #   - Initial release
 #
