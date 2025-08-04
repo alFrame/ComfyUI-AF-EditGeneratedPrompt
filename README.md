@@ -30,3 +30,6 @@ A ComfyUI custom node that allows you to pipe a generated prompt and either pass
 
 ## Version History
 v14: Current version with improved UI and stability
+
+## Disclaimer
+This custom node was written with the help of AI.
