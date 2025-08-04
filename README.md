@@ -29,7 +29,7 @@ A ComfyUI custom node that allows you to pipe a generated prompt and either pass
 5. Edit as needed - the edited version will be output if present, otherwise the generated prompt will be used
 
 ## Version History
-v14: Current version with improved UI and stability
+v0.0.14: Current version with improved UI and stability
 
 ## Disclaimer
 This custom node was written with the help of AI.
