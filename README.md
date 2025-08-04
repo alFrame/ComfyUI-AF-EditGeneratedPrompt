@@ -14,7 +14,7 @@ A ComfyUI custom node that allows you to pipe a generated prompt and either pass
    git clone https://github.com/yourusername/ComfyUI-AF-EditGeneratedPrompt.git
 
 
-##Usage
+## Usage
 
 1. Add the "AF - Edit Generated Prompt" node to your workflow
 2. Connect a text input to the input_text input
@@ -22,13 +22,13 @@ A ComfyUI custom node that allows you to pipe a generated prompt and either pass
 4. Use the "Copy Generated Prompt to Edit it" button to copy to the editable field
 5. Edit as needed - the edited version will be output if present, otherwise the original
 
-Features
+## Features
 
 - Display generated prompts in a readonly field
 - Copy button for easy editing
 - Prioritizes manual edits over original input
 - Clean, user-friendly interface
 
-##Version History
+## Version History
 
 v14: Current version with improved UI and stability
