@@ -67,8 +67,8 @@ app.registerExtension({
                     }
                 }
                 
-                // Add some spacer widgets for padding
-                const spacerTop = node.addWidget("text", "spacer_top", "");
+                // Add some spacer widgets for padding - FIX: Add empty callback to prevent console warning
+                const spacerTop = node.addWidget("text", "spacer_top", "", () => {});
                 spacerTop.computeSize = () => [0, 10]; // Empty widget with 10px height
                 spacerTop.draw = () => {}; // Don't draw anything
                 
@@ -93,12 +93,12 @@ app.registerExtension({
                 copyButton.label = "  Copy Generated Prompt for Editing "; // Add spaces for padding
                 copyButton.name = "copy_button";
                 
-                // Add bottom spacer
-                const spacerBottom = node.addWidget("text", "spacer_bottom", "");
+                // Add bottom spacer - FIX: Add empty callback to prevent console warning
+                const spacerBottom = node.addWidget("text", "spacer_bottom", "", () => {});
                 spacerBottom.computeSize = () => [0, 10]; // Empty widget with 10px height
                 spacerBottom.draw = () => {}; // Don't draw anything
                 
-            }, 50); // This closing brace and parenthesis were missing
+            }, 50);
         }
     }
 });
