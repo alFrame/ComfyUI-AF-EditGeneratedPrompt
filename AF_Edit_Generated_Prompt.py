@@ -49,7 +49,7 @@ class AF_Edit_Generated_Prompt:
     
     RETURN_TYPES = ("STRING",)
     FUNCTION = "process"
-    CATEGORY = "text/editing"
+    CATEGORY = "AF - Nodes"
     OUTPUT_NODE = False
     
     def process(self, generated_prompt="", manual_or_paste_generated="", input_text=""):
