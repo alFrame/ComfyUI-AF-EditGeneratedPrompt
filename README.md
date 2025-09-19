@@ -33,6 +33,8 @@ v0.0.16 - Put the version number and infos into the main python file, in the hop
 v0.0.15 - Fixed an issue with LiteGraph throwing an error about the space widgets
 v0.0.14 - Inital Git Release
 v0.0.01 - 0.0.13 Internal dev versions. Too many changes to list
+This is a multiline text block.
+It will preserve line breaks and indentation.   
 
 ## Disclaimer
 This custom node was written with the help of AI.
