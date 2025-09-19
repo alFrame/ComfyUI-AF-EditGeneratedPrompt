@@ -2,26 +2,29 @@
 #
 # Creator: Alex Furer - Co-Creator(s): Qwen3 and Claude AI
 #
+# Description:
+# A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually. Or you can use the lower input field like any regular text input filed. The content of the lower text field will always dominate the output of the node.
+#
+# Repo and ReadMe URL: https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt
+#
 # Praise, comment, bugs, improvements: https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt/issues
 #
 # LICENSE: MIT License
 #
-# v0.0.15
-#   - Fixed an issue with LiteGraph throwing an error about the space widgets.
-#
-# Description:
-# A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually. Or you can use the lower input field like any regular text input filed. The content of the lower text field will always dominate the output of the node.
-#
-# Usage:
-# Simple usage:
-# - Use it!
-#
-# Changelog:
-# v0.0.14
-# - Inital Git Release#
-#
 # Feature Requests / Wet Dreams
-# - 
+# - Be able to access the "Copy Generated Prompt for Editing" button outside a subgraph.
+
+__version__ = "0.0.16"
+__author__ = "Alex Furer"
+__title__ = "AF - EditGeneratedPrompt"
+__changelog__ = [
+    "v0.0.16 - Put the version number and infos into the main python file, in the hopes of it showing up in the ComfyUI Manager",
+    "v0.0.15 - Fixed an issue with LiteGraph throwing an error about the spacer widgets",
+    "v0.0.14 - Inital Git Release",
+    "v0.0.01 - 0.0.13 Internal dev versions. Too many changes to list."
+]
+__description__ = "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually."
+__license__ = "MIT"
 
 class AF_Edit_Generated_Prompt:
     @classmethod
