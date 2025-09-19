@@ -29,12 +29,10 @@ A ComfyUI custom node that allows you to pipe a generated prompt and either pass
 5. Edit as needed - the edited version will be output if present, otherwise the generated prompt will be used
 
 ## Version History
-v0.0.16 - Put the version number and infos into the main python file, in the hopes of it showing up in the ComfyUI Manager
-v0.0.15 - Fixed an issue with LiteGraph throwing an error about the space widgets
-v0.0.14 - Inital Git Release
-v0.0.01 - 0.0.13 Internal dev versions. Too many changes to list
-This is a multiline text block.
-It will preserve line breaks and indentation.   
+v0.0.16 - Put the version number and infos into the main python file, in the hopes of it showing up in the ComfyUI Manager  
+v0.0.15 - Fixed an issue with LiteGraph throwing an error about the space widgets  
+v0.0.14 - Inital Git Release  
+v0.0.01 - 0.0.13 Internal dev versions. Too many changes to list  
 
 ## Disclaimer
 This custom node was written with the help of AI.
