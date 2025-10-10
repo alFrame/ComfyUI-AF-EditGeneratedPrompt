@@ -1,11 +1,38 @@
+"""
+@author: Alex Furer
+@title: AF - Edit Generated Prompt
+@nickname: AF - Edit Generated Prompt
+@description: A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually.
+"""
+
 import os
 from .AF_Edit_Generated_Prompt import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
 
-# Get the directory of this file
-node_dir = os.path.dirname(__file__)
-js_path = os.path.join(node_dir, "AF_Edit_Generated_Prompt.js")
-
-# Tell ComfyUI to serve web files from this directory
-WEB_DIRECTORY = "." if os.path.exists(js_path) else None
-
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
+
+WEB_DIRECTORY = "."
+
+__version__ = "0.0.16"
+__author__ = "Alex Furer"
+__title__ = "AF - Edit Generated Prompt"
+__description__ = "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually."
+__license__ = "MIT"
+__changelog__ = [
+    "v0.0.16 - Reorganized metadata to follow ComfyUI standards",
+    "v0.0.15 - Fixed an issue with LiteGraph throwing an error about the spacer widgets",
+    "v0.0.14 - Initial Git Release",
+    "v0.0.01 - 0.0.13 Internal dev versions. Too many changes to list."
+]
+
+print("*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *")
+print(r"""
+   ___   ____        _____           ___     __  ______  _  __       __      
+  / _ | / __/ ____  / ___/__  __ _  / _/_ __/ / / /  _/ / |/ /__ ___/ /__ ___
+ / __ |/ _/  /___/ / /__/ _ \/  ' \/ _/ // / /_/ // /  /    / _ Y _  / -_|_-
+/_/ |_/_/          \___/\___/_/_/_/_/ \_, /\____/___/ /_/|_/\___|_,_/\__/___/
+                                     /___/
+                                     
+              🥃 AF - Edit Generated Prompt !
+                 
+""")
+print("*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *")
