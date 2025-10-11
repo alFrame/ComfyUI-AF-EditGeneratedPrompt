@@ -15,6 +15,7 @@ __title__ = "AF - Edit Generated Prompt"
 __description__ = "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually."
 __license__ = "MIT"
 __changelog__ = [
+    "v0.0.17 - Updated the init.py and modified the README",
     "v0.0.16 - Reorganized metadata to follow ComfyUI standards",
     "v0.0.15 - Fixed an issue with LiteGraph throwing an error about the spacer widgets",
     "v0.0.14 - Initial Git Release",
