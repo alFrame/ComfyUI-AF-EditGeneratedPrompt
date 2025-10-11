@@ -11,8 +11,21 @@
 #
 # LICENSE: MIT License
 #
+# v0.0.17
+#
+# Usage:
+# Read Me on Github
+#
+# Changelog:
+# "v0.0.17 - Updated the init.py and modified the README",
+# "v0.0.16 - Reorganized metadata to follow ComfyUI standards",
+# "v0.0.15 - Fixed an issue with LiteGraph throwing an error about the spacer widgets",
+# "v0.0.14 - Initial Git Release",
+# "v0.0.01 - 0.0.13 Internal dev versions. Too many changes to list."
+#
 # Feature Requests / Wet Dreams
 # - Be able to access the "Copy Generated Prompt for Editing" button outside a subgraph.
+# - Video
 
 class AF_Edit_Generated_Prompt:
     @classmethod
