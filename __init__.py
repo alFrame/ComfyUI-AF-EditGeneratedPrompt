@@ -5,12 +5,9 @@
 @description: A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually.
 """
 
-import os
 from .AF_Edit_Generated_Prompt import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
-
-WEB_DIRECTORY = "."
 
 __version__ = "0.0.16"
 __author__ = "Alex Furer"
