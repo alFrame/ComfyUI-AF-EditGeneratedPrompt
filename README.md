@@ -1,13 +1,14 @@
 # ComfyUI-AF-EditGeneratedPrompt
+
 A ComfyUI custom node that allows you to pipe a generated prompt into from an LLM and either pass it as is, or copy and edit it manually.
 
 If you have a prompting AI assistant in your workflow, you can pipe the output of that into the "AF - Edit Generated Prompt" 'input_text' input and forward it to your CLIP Text Encode (Prompt) node.  
 
 There are two text fields in this node.
-- The upper one is the one that recives and displays the incoming prompt (slightly grayed out).
-- The text field below is a regular prompt input text field. You can either write your own prompt, or click the "Copy Generated Prompt to Edit it" button, which will copiy the prompt to the lower text input filed, where you can edit it.  
+- The upper one is the one that receives and displays the incoming prompt (slightly grayed out).
+- The text field below is a regular prompt input text field. You can either write your own, or click the "Copy Generated Prompt to Edit it" button, which will copy the prompt to the lower text input filed, where you can edit it.  
 
-The content of the lower text field will always dominate the output of the node. So if you leave it empty, the prompt above will be renderd.
+The content of the lower text field will always dominate the output of the node. So if you leave it empty, the prompt above will be rendered.
 	
 ---
 
