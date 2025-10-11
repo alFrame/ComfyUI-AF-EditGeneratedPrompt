@@ -58,12 +58,4 @@ This node has been carefully designed and tested, but individual system configur
 3. After running the workflow, the generated prompt will be displayed in the readonly field
 4. Use the "Copy Generated Prompt to Edit it" button to copy to the editable field
 5. Edit as needed - the edited version will be output if present, otherwise the generated prompt will be used
-	
----
 
-## Version History
-v0.0.17 - Updated the init.py and modified the README
-v0.0.16 - Put the version number and infos into the main python file, in the hopes of it showing up in the ComfyUI Manager  
-v0.0.15 - Fixed an issue with LiteGraph throwing an error about the spacer widgets  
-v0.0.14 - Inital Git Release  
-v0.0.01 - 0.0.13 Internal dev versions. Too many changes to list

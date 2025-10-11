@@ -9,7 +9,7 @@ from .AF_Edit_Generated_Prompt import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAP
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
 
-__version__ = "0.0.16"
+__version__ = "0.0.17"
 __author__ = "Alex Furer"
 __title__ = "AF - Edit Generated Prompt"
 __description__ = "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually."
