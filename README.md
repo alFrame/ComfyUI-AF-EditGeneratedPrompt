@@ -1,8 +1,12 @@
-# IMPORTANT: This node will retire, as it's been released as part of a node pack and released via the ComfyUI Registry!
+# IMPORTANT: This node will retire
+
+### It is now part of a node pack and will be released via the ComfyUI Registry!
 
 You can find the node pack here: [https://github.com/alFrame/ComfyUI-AF-Pack-Prompt-Nodes](https://github.com/alFrame/ComfyUI-AF-Pack-Prompt-Nodes)
 
 **Please remove this node and install the node pack instead.**
+
+---
 
 # ComfyUI-AF-EditGeneratedPrompt
 
