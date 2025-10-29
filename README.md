@@ -1,3 +1,9 @@
+# IMPORTANT: This node will retire, as it's been released as part of a node pack and released via the ComfyUI Registry!
+
+You can find the node pack here: [https://github.com/alFrame/ComfyUI-AF-Pack-Prompt-Nodes](https://github.com/alFrame/ComfyUI-AF-Pack-Prompt-Nodes)
+
+**Please remove this node and install the node pack instead.**
+
 # ComfyUI-AF-EditGeneratedPrompt
 
 A ComfyUI custom node that allows you to pipe a generated prompt into from an LLM and either pass it as is, or copy and edit it manually.
