@@ -1,6 +1,6 @@
-# IMPORTANT: This node will retire
+# IMPORTANT: This node is retired
 
-### It is now part of a node pack and will be released via the ComfyUI Registry!
+### It is now part of a node pack and is released via the ComfyUI Registry!
 
 You can find the node pack here: [https://github.com/alFrame/ComfyUI-AF-Pack-Prompt-Nodes](https://github.com/alFrame/ComfyUI-AF-Pack-Prompt-Nodes)
 
